@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicious Recipes</title>
+    <link rel="stylesheet" href="css/Delicious-Recipes.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1 class="nav-head">delicious recipes</h1>
+        <nav class="navbar-items hide">
+          <ul>
+            <li><a href="#session-home">Home</a></li>
+            <li><a href="#session-recipes">Recipes</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button class="burger-container">
+          <span class="burger"></span>
+          <span class="burger"></span>
+          <span class="burger"></span>
+        </button>
+      </div>
+    </header>
+
+    <div id="session-home">
+      <div class="home-bg">
+        <div class="home-container">
+          <h1 class="home-head">welcome to our recipe collection!</h1>
+          <p class="home-para">
+            Discover mouth-watering recipes satisfy your cravings.
+          </p>
+          <div class="search-item">
+            <input
+              type="text"
+              placeholder="Search recipes"
+              class="home-search"
+            />
+            <button class="home-button">
+              <img
+                src="img/home-search-img.png"
+                alt=""
+                class="home-search-img"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="session-recipes"><br><br>
+      <h1 class="recipe-head">featured recipes</h1>
+      <div class="recipe-container-items">
+        <div class="recipe-container">
+          <img src="img/recipe-chiken.jpg" alt="" class="recipe-img" />
+          <div class="recipe-contant">
+            <h1 class="recipe-item-head">ghicken grilled</h1>
+            <p class="recipe-item-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae, quisquam.
+            </p>
+          </div>
+          <p class="recipe-item-view">view recipe</p>
+        </div>
+        <div class="recipe-container">
+          <img src="img/recipe-chiken-salad.jpg" alt="" class="recipe-img" />
+          <div class="recipe-contant">
+            <h1 class="recipe-item-head">chicken salad</h1>
+            <p class="recipe-item-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae, quisquam.
+            </p>
+          </div>
+          <p class="recipe-item-view">view recipe</p>
+        </div>
+        <div class="recipe-container">
+          <img src="img/recipe-strowberry-custurd.jpg" alt="" class="recipe-img" />
+          <div class="recipe-contant">
+            <h1 class="recipe-item-head">strowberry custurd</h1>
+            <p class="recipe-item-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae, quisquam.
+            </p>
+          </div>
+          <p class="recipe-item-view">view recipe</p>
+        </div>
+        <div class="recipe-container">
+          <img src="img/recipe-butter-chicken.jpg" alt="" class="recipe-img" />
+          <div class="recipe-contant">
+            <h1 class="recipe-item-head">butter chicken</h1>
+            <p class="recipe-item-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae, quisquam.
+            </p>
+          </div>
+          <p class="recipe-item-view">view recipe</p>
+        </div>
+        <div class="recipe-container">
+          <img src="img/recipe-grilled-chicken-salad.jpg" alt="" class="recipe-img" />
+          <div class="recipe-contant">
+            <h1 class="recipe-item-head">grilled chicken salad</h1>
+            <p class="recipe-item-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae, quisquam.
+            </p>
+          </div>
+          <p class="recipe-item-view">view recipe</p>
+        </div>
+        <div class="recipe-container">
+          <img src="img/recipe-butter-chicken-spicy.jpg" alt="" class="recipe-img" />
+          <div class="recipe-contant">
+            <h1 class="recipe-item-head">butter chicken spicy</h1>
+            <p class="recipe-item-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae, quisquam.
+            </p>
+          </div>
+          <p class="recipe-item-view">view recipe</p>
+        </div>
+        <div class="recipe-container">
+          <img src="img/recipe-fish-fry.jpg" alt="" class="recipe-img" />
+          <div class="recipe-contant">
+            <h1 class="recipe-item-head">fish fry</h1>
+            <p class="recipe-item-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae, quisquam.
+            </p>
+          </div>
+          <p class="recipe-item-view">view recipe</p>
+        </div>
+        <div class="recipe-container">
+          <img src="img/recipe-chicken-soup.jpg" alt="" class="recipe-img" />
+          <div class="recipe-contant">
+            <h1 class="recipe-item-head">chicken soup</h1>
+            <p class="recipe-item-para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae, quisquam.
+            </p>
+          </div>
+          <p class="recipe-item-view">view recipe</p>
+        </div>
+      </div>
+    </div>
+
+
+    <footer>
+      <p class="footer-item">@ 2024 delicious recipes</p>
+    </footer>
+    <script>
+      document.querySelector(".burger-container").onclick = function () {
+        document.querySelector(".navbar-items").classList.toggle("hide");
+      };
+    </script>
+  </body>
+</html>
